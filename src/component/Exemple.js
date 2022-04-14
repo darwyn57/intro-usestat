@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const Exemple = () => {
     const [count, setCount] = useState(0);
     return (
@@ -8,7 +9,9 @@ const Exemple = () => {
             <button onClick={() => setCount(count + 1)}>Cliquer ici</button>
 
         </div>
+
     );
+
 };
 
 export default Exemple;

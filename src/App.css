@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-color:red;
+  height: 200px;
+  border-radius: 10%;
+  width:auto;
+}
+button{
+  background-color:saddlebrown;
 }
 
 
@@ -19,4 +26,5 @@
   justify-content:center;
   align-items:center;
   cursor: pointer;
+  
 }
